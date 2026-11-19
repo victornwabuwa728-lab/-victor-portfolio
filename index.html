@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d1b">
+
+    <meta name="description" content="Victor N. — Web Developer and UI/UX Designer passionate about modern web technologies, responsive design, and building digital experiences.">
+
+    <meta name="keywords" content="Victor N, Web Developer, Frontend Developer, UI UX Designer, HTML, CSS, JavaScript, Portfolio">
+
+    <meta name="author" content="Victor N.">
+
+    <title>Victor N. | Web Developer & UI/UX Designer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Website icon placeholder -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+<!-- ================= PRELOADER ================= -->
+
+<div class="preloader" id="preloader">
+    <div class="loader-logo">VN<span>.</span></div>
+    <div class="loader-line"></div>
+</div>
+
+
+<!-- ================= HEADER / NAVIGATION ================= -->
+
+<header class="header" id="header">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo" aria-label="Victor N Home">
+            VN<span>.</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+                <i class="fas fa-sun"></i>
+            </button>
+
+            <a href="#contact" class="nav-cta">
+                Let's Talk
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<main>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-grid-bg"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <div class="availability-badge">
+                <span class="status-dot"></span>
+                <span>Growing · Building · Exploring</span>
+            </div>
+
+            <p class="hero-intro">HELLO, I'M</p>
+
+            <h1 class="hero-name">
+                Victor <span>N.</span>
+            </h1>
+
+            <h2 class="hero-title">
+                <span class="title-prefix">I'm a</span>
+                <span class="typing-text" id="typingText"></span>
+                <span class="typing-cursor">|</span>
+            </h2>
+
+            <p class="hero-description">
+                Exploring the future of technology through creative design,
+                modern web development, and meaningful digital experiences.
+                I'm passionate about turning ideas into interactive experiences
+                for the web.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Journey
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Get In Touch
+                </a>
+
+            </div>
+
+            <div class="hero-socials">
+
+                <span class="social-label">CONNECT WITH ME</span>
+
+                <a href="#" class="social-link placeholder-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="#" class="social-link placeholder-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" class="social-link placeholder-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO IMAGE PLACEHOLDER -->
+
+        <div class="hero-visual">
+
+            <div class="hero-image-glow"></div>
+
+            <div class="hero-image-frame">
+
+                <div class="image-top-label">
+                    <span>PROFILE / 001</span>
+                    <span>VN</span>
+                </div>
+
+                <div class="hero-image-placeholder">
+
+                    <div class="placeholder-content">
+
+                        <i class="fas fa-user-astronaut"></i>
+
+                        <p>YOUR PROFILE IMAGE</p>
+
+                        <span>Replace this placeholder with your photo</span>
+
+                    </div>
+
+                </div>
+
+                <div class="image-bottom-label">
+                    <span>WEB DEVELOPMENT</span>
+                    <span>UI / UX DESIGN</span>
+                </div>
+
+            </div>
+
+            <div class="floating-card floating-card-top">
+
+                <div class="floating-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <div>
+                    <span class="floating-card-label">Currently Focused</span>
+                    <strong>Frontend Development</strong>
+                </div>
+
+            </div>
+
+            <div class="floating-card floating-card-bottom">
+
+                <div class="floating-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <span class="floating-card-label">Academic Journey</span>
+                    <strong>Computer Science</strong>
+                </div>
+
+            </div>
+
+            <div class="hero-orbit orbit-one"></div>
+            <div class="hero-orbit orbit-two"></div>
+
+        </div>
+
+    </div>
+
+    <a href="#about" class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fas fa-arrow-down"></i>
+    </a>
+
+</section>
+
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                ABOUT ME
+            </span>
+
+            <h2>Curious about technology.<br>
+                <span>Driven by the future.</span>
+            </h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p class="about-lead">
+                    I'm a Computer Science student with a growing passion for
+                    frontend web development, interface design, and the evolving
+                    world of technology.
+                </p>
+
+                <p>
+                    I believe technology is more than just code — it's a tool
+                    for creativity, communication, problem-solving, and building
+                    experiences that make life easier. My interest in technology
+                    comes from curiosity about what the future holds and how
+                    digital innovation continues to transform the world.
+                </p>
+
+                <p>
+                    I'm currently developing my skills in HTML, CSS, JavaScript,
+                    responsive web design, and UI/UX design while working toward
+                    becoming a skilled developer capable of bringing ideas to life.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's connect
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="about-details reveal">
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <h3>My Focus</h3>
+
+                    <p>
+                        Building modern, responsive, accessible, and
+                        user-friendly web interfaces.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+
+                    <h3>My Mindset</h3>
+
+                    <p>
+                        Curiosity, continuous learning, creativity,
+                        and a willingness to grow.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+
+                    <h3>My Ambition</h3>
+
+                    <p>
+                        Becoming a developer who creates meaningful
+                        and impactful digital solutions.
+                    </p>
+
+                </div>
+
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+
+                    <h3>My Perspective</h3>
+
+                    <p>
+                        Technology is constantly evolving.
+                        I'm excited to be part of its future.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS SECTION ================= -->
+
+<section class="skills section" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                SKILLS & TECHNOLOGIES
+            </span>
+
+            <h2>Tools I'm learning.<br>
+                <span>Ideas I'm building.</span>
+            </h2>
+
+            <p class="section-description">
+                My current technical toolkit and the skills I'm developing
+                as I grow into frontend development.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">01</span>
+                    <i class="fab fa-html5 skill-icon html-icon"></i>
+                </div>
+
+                <h3>HTML5</h3>
+
+                <p>
+                    Building structured, accessible, and semantic foundations
+                    for modern websites.
+                </p>
+
+                <span class="skill-category">STRUCTURE & MARKUP</span>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">02</span>
+                    <i class="fab fa-css3-alt skill-icon css-icon"></i>
+                </div>
+
+                <h3>CSS3</h3>
+
+                <p>
+                    Creating modern layouts, visual styles, animations,
+                    and polished user interfaces.
+                </p>
+
+                <span class="skill-category">DESIGN & STYLING</span>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">03</span>
+                    <i class="fab fa-js skill-icon js-icon"></i>
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Developing interactive website experiences
+                    and learning dynamic web functionality.
+                </p>
+
+                <span class="skill-category">INTERACTIVITY</span>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">04</span>
+                    <i class="fas fa-mobile-screen skill-icon responsive-icon"></i>
+                </div>
+
+                <h3>Responsive Design</h3>
+
+                <p>
+                    Designing websites that adapt beautifully
+                    to phones, tablets, and desktop screens.
+                </p>
+
+                <span class="skill-category">MULTI-DEVICE DESIGN</span>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">05</span>
+                    <i class="fas fa-pen-ruler skill-icon ux-icon"></i>
+                </div>
+
+                <h3>UI/UX Design</h3>
+
+                <p>
+                    Exploring intuitive layouts, usability,
+                    visual hierarchy, and user-centered design.
+                </p>
+
+                <span class="skill-category">USER EXPERIENCE</span>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-card-top">
+                    <span class="skill-number">06</span>
+                    <i class="fab fa-git-alt skill-icon git-icon"></i>
+            </div>
+
+                <h3>Git & GitHub</h3>
+
+                <p>
+                    Learning version control, managing code,
+                    and publishing projects online.
+                </p>
+
+                <span class="skill-category">VERSION CONTROL</span>
+
+            </article>
+
+        </div>
+
+
+        <div class="skills-note reveal">
+
+            <i class="fas fa-circle-info"></i>
+
+            <p>
+                I'm continuously expanding my technical knowledge
+                through practice, experimentation, and learning.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION SECTION ================= -->
+
+<section class="education section" id="education">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                EDUCATION
+            </span>
+
+            <h2>The foundation<br>
+                <span>of my journey.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="education-timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-marker">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">2024 — 2028</span>
+
+                    <h3>Ignatius Ajuru University of Education</h3>
+
+                    <h4>B.Sc. / Computer Science</h4>
+
+                    <p>
+                        Currently pursuing a degree in Computer Science,
+                        developing my understanding of computing, digital
+                        technology, programming concepts, and the foundations
+                        of software development.
+                    </p>
+
+                    <div class="timeline-tags">
+                        <span>300 Level</span>
+                        <span>Computer Science</span>
+                        <span>Undergraduate</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-marker">
+                    <i class="fas fa-school"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">SECONDARY EDUCATION</span>
+
+                    <h3>Secondary School</h3>
+
+                    <h4>Secondary School Certificate</h4>
+
+                    <p>
+                        Completed secondary education and established
+                        the academic foundation for my continued
+                        education and interest in technology.
+                    </p>
+
+                    <div class="timeline-tags">
+                        <span>School name to be added</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS SECTION ================= -->
+
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                SELECTED PROJECTS
+            </span>
+
+            <h2>Ideas into<br>
+                <span>digital experiences.</span>
+            </h2>
+
+            <p class="section-description">
+                A space for the projects, experiments, and digital experiences
+                I'll develop as I continue my journey.
+            </p>
+
+        </div>
+
+
+        <div class="project-filters reveal">
+
+            <button class="filter-btn active" data-filter="all">All</button>
+
+            <button class="filter-btn" data-filter="web">Web Development</button>
+
+            <button class="filter-btn" data-filter="design">UI/UX Design</button>
+
+            <button class="filter-btn" data-filter="learning">Learning Projects</button>
+
+        </div>
+
+
+        <div class="projects-grid" id="projectsGrid">
+
+
+            <!-- PROJECT PLACEHOLDER 01 -->
+
+            <article class="project-card reveal" data-category="web">
+
+                <div class="project-image project-placeholder-one">
+
+                    <div class="project-placeholder-content">
+                        <i class="fas fa-code"></i>
+                        <span>PROJECT PREVIEW</span>
+                    </div>
+
+                    <span class="project-status">COMING SOON</span>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-meta">
+                        <span>01 / WEB DEVELOPMENT</span>
+                    </div>
+
+                    <h3>First Project</h3>
+
+                    <p>
+                        A future project showcasing my growing
+                        frontend development skills.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#" class="project-link placeholder-link">
+                            Preview
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link placeholder-link">
+                            Source Code
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT PLACEHOLDER 02 -->
+
+            <article class="project-card reveal" data-category="design">
+
+                <div class="project-image project-placeholder-two">
+
+                    <div class="project-placeholder-content">
+                        <i class="fas fa-layer-group"></i>
+                        <span>DESIGN PREVIEW</span>
+                    </div>
+
+                    <span class="project-status">COMING SOON</span>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-meta">
+                        <span>02 / UI/UX DESIGN</span>
+                    </div>
+
+                    <h3>Interface Concept</h3>
+
+                    <p>
+                        A future user interface concept exploring
+                        modern layouts, usability, and design.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>UI Design</span>
+                        <span>UX</span>
+                        <span>Wireframes</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#" class="project-link placeholder-link">
+                            Case Study
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT PLACEHOLDER 03 -->
+
+            <article class="project-card reveal" data-category="learning">
+
+                <div class="project-image project-placeholder-three">
+
+                    <div class="project-placeholder-content">
+                        <i class="fas fa-terminal"></i>
+                        <span>EXPERIMENT PREVIEW</span>
+                    </div>
+
+                    <span class="project-status">COMING SOON</span>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-meta">
+                        <span>03 / LEARNING PROJECT</span>
+                    </div>
+
+                    <h3>Code & Experiments</h3>
+
+                    <p>
+                        Small experiments and learning exercises
+                        documenting my progress as a developer.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#" class="project-link placeholder-link">
+                            Explore
+                            <i class="fas fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                        <a href="#" class="project-link placeholder-link">
+                            GitHub
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <div class="projects-empty-note reveal">
+
+            <i class="fas fa-rocket"></i>
+
+            <p>
+                This portfolio will evolve as I build, experiment,
+                and turn new ideas into real projects.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATIONS SECTION ================= -->
+
+<section class="certifications section" id="certifications">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                CERTIFICATIONS & ACHIEVEMENTS
+            </span>
+
+            <h2>Learning today.<br>
+                <span>Growing for tomorrow.</span>
+            </h2>
+
+            <p class="section-description">
+                A growing archive of professional certifications,
+                learning milestones, and achievements.
+            </p>
+
+        </div>
+
+
+        <div class="certification-empty reveal">
+
+            <div class="certification-icon">
+                <i class="fas fa-certificate"></i>
+            </div>
+
+            <span class="certification-label">CERTIFICATION ARCHIVE</span>
+
+            <h3>My learning journey is in progress.</h3>
+
+            <p>
+                I haven't earned any professional certifications yet.
+                As I complete courses and earn credentials, this section
+                will be updated with certificates, issuing organizations,
+                dates, and verification links.
+            </p>
+
+            <div class="certification-decoration">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CURRENTLY LEARNING ================= -->
+
+<section class="learning section" id="learning">
+
+    <div class="container">
+
+        <div class="learning-panel reveal">
+
+            <div class="learning-content">
+
+                <span class="section-tag">
+                    <span class="tag-line"></span>
+                    CURRENTLY LEARNING
+                </span>
+
+                <h2>Always learning.<br>
+                    <span>Always evolving.</span>
+                </h2>
+
+                <p>
+                    Technology never stands still, and neither do I.
+                    I'm actively improving my skills, exploring new
+                    concepts, and building a stronger foundation
+                    for my future in web development.
+                </p>
+
+                <div class="learning-list">
+
+                    <div class="learning-item">
+                        <i class="fas fa-check"></i>
+                        <span>JavaScript & Interactive Development</span>
+                    </div>
+
+                    <div class="learning-item">
+                        <i class="fas fa-check"></i>
+                        <span>Modern Frontend Development</span>
+                    </div>
+
+                    <div class="learning-item">
+                        <i class="fas fa-check"></i>
+                        <span>UI/UX & User-Centered Design</span>
+                    </div>
+
+                    <div class="learning-item">
+                        <i class="fas fa-check"></i>
+                        <span>Building Practical Web Projects</span>
+                    </div>
+
+                    <div class="learning-item">
+                        <i class="fas fa-check"></i>
+                        <span>Version Control & GitHub Workflows</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="learning-visual">
+
+                <div class="learning-circle circle-large"></div>
+                <div class="learning-circle circle-medium"></div>
+                <div class="learning-circle circle-small"></div>
+
+                <div class="learning-core">
+                    <i class="fas fa-brain"></i>
+                    <span>LEARN</span>
+                    <span>BUILD</span>
+                    <span>EVOLVE</span>
+                </div>
+
+                <div class="learning-floating learning-floating-one">
+                    <i class="fab fa-js"></i>
+                    JavaScript
+                </div>
+
+                <div class="learning-floating learning-floating-two">
+                    <i class="fab fa-css3-alt"></i>
+                    CSS3
+                </div>
+
+                <div class="learning-floating learning-floating-three">
+                    <i class="fab fa-html5"></i>
+                    HTML5
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-tag">
+                <span class="tag-line"></span>
+                GET IN TOUCH
+            </span>
+
+            <h2>Have an idea?<br>
+                <span>Let's connect.</span>
+            </h2>
+
+            <p class="section-description">
+                I'm open to connecting with fellow developers,
+                learning opportunities, collaborations,
+                and conversations about technology.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-info reveal">
+
+                <div class="contact-info-card">
+
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>Email Me</span>
+                        <a href="mailto:YOUR_EMAIL_HERE" class="contact-placeholder">
+                            Add email address
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-info-card">
+
+                    <div class="contact-card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+
+                    <div>
+                        <span>WhatsApp</span>
+                        <a href="#" class="placeholder-link">
+                            Add WhatsApp number
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-info-card">
+
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <span>Phone</span>
+                        <a href="#" class="placeholder-link">
+                            Add phone number
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-socials">
+
+                    <span>FIND ME ONLINE</span>
+
+                    <div class="social-icons">
+
+                        <a href="#" class="placeholder-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#" class="placeholder-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" class="placeholder-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <form class="contact-form reveal" id="contactForm">
+
+                <div class="form-heading">
+
+                    <h3>Send me a message</h3>
+
+                    <p>Have something in mind? I'd love to hear from you.</p>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="contactName">Your Name</label>
+
+                        <input type="text"
+                               id="contactName"
+                               name="name"
+                               placeholder="Enter your name"
+                               required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="contactEmail">Your Email</label>
+
+                        <input type="email"
+                               id="contactEmail"
+                               name="email"
+                               placeholder="Enter your email"
+                               required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="contactSubject">Subject</label>
+
+                    <input type="text"
+                           id="contactSubject"
+                           name="subject"
+                           placeholder="What would you like to discuss?"
+                           required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="contactMessage">Message</label>
+
+                    <textarea id="contactMessage"
+                              name="message"
+                              rows="5"
+                              placeholder="Write your message here..."
+                              required></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn btn-primary form-submit">
+
+                    Send Message
+
+                    <i class="fas fa-paper-plane"></i>
+
+                </button>
+
+                <p class="form-notice" id="formNotice"></p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="final-cta section">
+
+    <div class="container">
+
+        <div class="cta-content reveal">
+
+            <span class="section-tag">
+                THE JOURNEY CONTINUES
+            </span>
+
+            <h2>Building my future,<br>
+                <span>one line at a time.</span>
+            </h2>
+
+            <a href="#home" class="btn btn-primary">
+                Back to Top
+                <i class="fas fa-arrow-up"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer" id="footer">
+
+    <div class="container">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    VN<span>.</span>
+                </a>
+
+                <p>
+                    Exploring technology.<br>
+                    Building digital experiences.<br>
+                    Growing into the future.
+                </p>
+
+            </div>
+
+
+            <div class="footer-navigation">
+
+                <span class="footer-heading">NAVIGATION</span>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-connect">
+
+                <span class="footer-heading">CONNECT</span>
+
+                <a href="#" class="placeholder-link">GitHub</a>
+                <a href="#" class="placeholder-link">LinkedIn</a>
+                <a href="#" class="placeholder-link">Instagram</a>
+                <a href="mailto:YOUR_EMAIL_HERE">Email</a>
+
+            </div>
+
+
+            <div class="footer-status">
+
+                <span class="status-dot"></span>
+
+                <p>Currently learning and growing</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; <span id="currentYear"></span> Victor N.
+                All rights reserved.
+            </p>
+
+            <p class="footer-made">
+                Designed with curiosity.
+                Built with code.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= BACK TO TOP BUTTON ================= -->
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<!-- ================= TOAST NOTIFICATION ================= -->
+
+<div class="toast" id="toast">
+
+    <div class="toast-icon">
+        <i class="fas fa-info-circle"></i>
+    </div>
+
+    <p class="toast-message" id="toastMessage"></p>
+
+    <button class="toast-close" id="toastClose" aria-label="Close notification">
+        <i class="fas fa-times"></i>
+    </button>
+
+</div>
+
+
+<!-- ================= LIVE CHAT INTEGRATION ================= -->
+
+<!--
+    TAWK.TO LIVE CHAT
+
+    Your Tawk.to widget code will be inserted here
+    after your account and property are ready.
+
+    Keep this section for future integration.
+-->
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
